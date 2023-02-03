@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style type="text/css">
+body {
+	margin:10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+}
+
+#box1{
+	width:200px;
+	height:200px;
+	margin:10px;
+	padding:10px;
+}
+
+#box1 {
+	background:#34aeeb;
+  border-radius: 25px
+}
+
+h2, p  {
+	padding:5px;
+}
+
+#box1 p {
+	white-space:pre;
+	font-size:smaller;
+	font-family:monospace;
+}
+</style>
+  <title>replit</title>
+</head>
+
+<body>
+  <div id ="box1">
+    <form name="form1">
+      <p1>Property Class</p1>
+      <select id="classBox">
+      <option value="A">Class A</option>
+      <option value="B">Class B</option>
+      <option value="C">Class C</option>
+      <option value="D">Class D</option>
+   </select>
+   </form>
+      <form>
+      <p1>Property Owner</p1>
+      <select id="propBox">
+      <option value="Commercial">Commercial</option>
+      <option value="Residential">Residential</option>
+      <option value="Goverment/Exempt">Goverment/Exempt</option>
+    </select>
+  </form>  
+  <form>
+    <label id="sqBox">Square Feet: <input type="text" /></label>
+    <label id="ffBox">Frontage Feet: <input type="text" /></label>
+    
+    <input type="button" name="button" value="Submit" onClick="testResults(this.form)">
+    <label id="totalBox"></label>
+  </form>
+ </P>
+ </div >
+ <script src="script.js"></script>
+
+ <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
